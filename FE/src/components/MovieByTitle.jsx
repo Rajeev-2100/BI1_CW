@@ -8,7 +8,7 @@ const MovieByTitle = ({ title }) => {
         <>
             {data ? (
                 <div>
-                    <h2>{data.title}</h2>
+                    <h4>{data.title}</h4>
                     <p>Director: {data.director}</p>
                     <p>Country: {data.country}</p>
                     <p>ReleaseYear: {data.releaseYear}</p>
